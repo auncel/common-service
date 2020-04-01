@@ -1,0 +1,22 @@
+spring:
+    cloud:
+        nacos:
+            discovery:
+                server-addr: '101.37.29.47:6399'
+                heart-beat-timeout: 10000
+    redis:
+        database: 0
+#        password: 123456
+        port: 6379
+        host: 49.234.72.82
+        lettuce:
+            pool:
+                min-idle: 5
+                max-idle: 10
+                max-active: 8
+                max-wait: 1ms
+            shutdown-timeout: 1000ms
+application:
+    name: common-service
+server:
+    port: 8081
