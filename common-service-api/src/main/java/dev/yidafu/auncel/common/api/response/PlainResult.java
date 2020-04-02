@@ -12,5 +12,4 @@ public class PlainResult<T> implements Serializable {
     private T data = null;
     private Integer code = -1;
     private String msg = "";
-
 }
