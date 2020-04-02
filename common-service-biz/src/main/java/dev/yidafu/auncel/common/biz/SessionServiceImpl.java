@@ -10,6 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 
+/**
+ * invoke SessionService.create("AUNCEL04564211eb26f810c80e", {username: "test1", password: "encodepassword", email: "xx@qq.com"})
+ * invoke SessionService.getAll("AUNCEL04564211eb26f810c80e")
+ */
 @Service
 public class SessionServiceImpl implements SessionService {
 
